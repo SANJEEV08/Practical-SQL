@@ -1,0 +1,2 @@
+/* Using 'SELECT *' to retrieve all the columns for all the records */
+SELECT * FROM CITY;
