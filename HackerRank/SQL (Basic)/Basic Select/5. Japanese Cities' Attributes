@@ -1,0 +1,2 @@
+/* Using the 'WHERE' clause */
+SELECT * FROM CITY WHERE COUNTRYCODE = 'JPN';
