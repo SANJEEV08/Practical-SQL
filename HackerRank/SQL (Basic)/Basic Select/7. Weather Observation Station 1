@@ -1,0 +1,2 @@
+/* Using the 'SELECT' clause */
+SELECT CITY,STATE FROM STATION;
