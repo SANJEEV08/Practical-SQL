@@ -1,0 +1,4 @@
+/* Using the 'DISTINCT', 'WHERE' & 'RLIKE' clause */
+/* It uses the Regex expression */
+/* Not case sensitive */
+SELECT DISTINCT CITY FROM STATION WHERE CITY RLIKE '^[aeiou]';
