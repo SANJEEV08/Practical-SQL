@@ -1,0 +1,2 @@
+/* Using 'DISTINCT', 'WHERE', 'RLIKE' clause */
+SELECT DISTINCT CITY FROM STATION WHERE CITY RLIKE '^[^aeiou].*|.*[^aeiou]$';
