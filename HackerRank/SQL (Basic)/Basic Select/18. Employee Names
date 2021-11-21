@@ -1,0 +1,2 @@
+/* Using 'ORDER BY' clause */
+SELECT name FROM Employee ORDER BY name;
