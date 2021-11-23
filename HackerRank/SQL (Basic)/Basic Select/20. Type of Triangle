@@ -1,0 +1,14 @@
+/* Using multiple 'CASE' clauses,
+Here 'AND'operator takes higher preference than 'OR' operator, so it has to be put first */
+
+SELECT CASE
+            WHEN A + B > C AND B + C > A AND A + C > B THEN
+                CASE
+                    WHEN A = B AND B = C THEN 'Equilateral'
+                    WHEN A = B OR B = C OR A = C THEN 'Isosceles'
+                    ELSE 'Scalene'
+                END
+            ELSE 'Not A Triangle'
+        END
+FROM TRIANGLES;
+
